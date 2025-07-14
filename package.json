@@ -1,0 +1,29 @@
+{
+  "name": "tutorial-npm-package",
+  "version": "1.0.0",
+  "description": "This is a tutorial on npm package manager.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustiagung19/tutorial-npm-package.git"
+  },
+  "keywords": [
+    "tutorial",
+    "npm",
+    "npm package"
+  ],
+  "author": "Gusti Agung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustiagung19/tutorial-npm-package/issues"
+  },
+  "homepage": "https://github.com/gustiagung19/tutorial-npm-package#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
