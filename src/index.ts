@@ -1,3 +1,2 @@
-export function helloWorld(): string {
-    return "Hello World!";
-}
+export * from './utils/helloWorld';
+export * from './utils/loremIpsum';
