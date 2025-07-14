@@ -10,7 +10,8 @@ npm install git+https://github.com/gustiagung19/tutorial-npm-package.git
 
 ## Usage
 ```ts
-import { helloWorld } from 'tutorial-npm-package';
+import { helloWorld, loremIpsum } from 'tutorial-npm-package';
 
-console.log(helloWorld); // "Hello World!"
+console.log(helloWorld()); // Hello World!
+console.log(loremIpsum()); // Lorem Ipsum
 ```
